@@ -143,3 +143,13 @@ footer {
     color: var(--text-secondary);
     font-size: 0.875rem;
 }
+
+.card-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.card-link:hover {
+    color: var(--accent-blue);
+}
